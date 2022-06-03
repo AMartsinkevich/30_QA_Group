@@ -1,0 +1,4 @@
+1. See testcases for mSC Interop
+2. Establish VPN connections via Cloud from the Service Workstation and Machine
+3. Establish Service Connection between Service Workstation and Machine
+4. Check traffic between them (for example, ping)
