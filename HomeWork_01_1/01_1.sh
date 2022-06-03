@@ -252,8 +252,8 @@ echo Solution:
 echo curl : Transfer a URL.
 echo ""
 
-echo curl http://162.55.220.72:5005/terminal-hw-request
-curl http://162.55.220.72:5005/terminal-hw-request
+echo 'curl "http://162.55.220.72:5005/terminal-hw-request"'
+curl "http://162.55.220.72:5005/terminal-hw-request"
 
 echo ""
 printf '%.s-' $(seq 80); echo ""
