@@ -1,0 +1,5 @@
+Movie: My Favorite
+Series: Best
+Food: Tasty
+Season: Summer
+Country: All
