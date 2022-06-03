@@ -3,7 +3,7 @@
 
 Нужно уметь делать все пункты задания.
 
-1. На локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, Bug Reports, SQL, Charles, Mobile testing
+1. На локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, BugReports, SQL, Charles, Mobile testing
 2. Запушить все ветки на внешний репозиторий
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 4. Запушить структуру багрепорта на внешний репозиторий
