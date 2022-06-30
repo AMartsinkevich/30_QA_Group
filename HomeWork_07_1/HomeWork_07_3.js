@@ -38,3 +38,24 @@ const printSmile2 = function(smile, count) {
 }
 
 printSmile2(":-)", 7)
+
+const getWordStructure = function(word) {
+
+    word && console.log(`Слово ${word} состоит из ${word.match(/[aeiou]/gi).length} гласных и ${word.match(/[bcdfghjklmnpqrstvwxz]/gi).length} согласных букв`)
+
+}
+
+getWordStructure('case')
+getWordStructure('Case')
+getWordStructure('Check-list')
+getWordStructure('')
+
+const isPalindrom = function(word) {
+
+    console.log(`${word.toLowerCase() == word.toLowerCase().split('').reverse().join('')}`)
+
+}
+
+isPalindrom('abba')
+isPalindrom('Abba')
+isPalindrom('')
