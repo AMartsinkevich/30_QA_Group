@@ -561,3 +561,47 @@ function countStaff() {
 
 countStaff(enterprises)
 
+function getEnterpriseName(param) {
+
+    let s = []
+
+    if ( !isNaN(param) ) {
+
+        for ( let [i, key] of enterprises.entries() ) {
+
+            if ( key["departments"].find( a => a.id == param ) ) {
+
+                s.push(i)
+
+            }
+        }
+    
+    } else {
+
+        for ( let [i, key] of enterprises.entries() ) {
+
+            if ( key["departments"].find( a => a.name == param ) ) {
+
+                s.push(i)
+
+            }
+        }
+    }
+ 
+    if ( s.length === 0 ) {
+
+        console.log("Ничего не найдено")
+
+    } else {
+
+        for ( let i of s ) {
+
+            console.log( `${enterprises[i]["name"]}` )
+
+        }
+    }
+}
+
+getEnterpriseName(4)
+getEnterpriseName("Отдел маркетинга")
+
